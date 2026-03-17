@@ -40,10 +40,17 @@ public class StringEx2Main {
 			}
 		}
 	
-		System.out.println(result);
+		System.out.println(count);//human
 		
+		String st  "한화, 기아, 삼성, 롯데, 키움, 두산, lg,nc, kt";
 		
+		String [] temas =st.split(",");
 		
+		for(int i = 0; i < temas.length; i++) {
+			System.out.println(temas[i]);
+		}
+		
+		System.out.println(temas[1].trim()  .equals(" 기아 "));
 		
 	}
 }
